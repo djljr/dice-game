@@ -1,0 +1,25 @@
+#sprites {
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    margin-top: -240px;
+    margin-left: -400px;
+    width: 800px;
+    height: 480px;
+    background: url("board.png") center no-repeat;
+}
+
+#sprites div {
+    position: absolute;
+    background: url(dice.png);
+    width: 32px;
+    height: 32px;   
+}
+
+#sprites div.first-towncenter { background-position: 0px 0px; }
+#sprites div.second-towncenter { background-position: -32px 0px; }
+#sprites div.third-towncenter { background-position: -64px 0px; }
+#sprites div.fourth-towncenter { background-position: -96px 0px; }
+#sprites div.fifth-towncenter { background-position: -128px 0px; }
+#sprites div.sixth-towncenter { background-position: -160px 0px; }
